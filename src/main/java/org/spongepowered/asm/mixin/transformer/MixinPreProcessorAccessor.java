@@ -29,7 +29,7 @@ import org.spongepowered.asm.mixin.transformer.MixinInfo.MixinClassNode;
 /**
  * Bytecode preprocessor for accessor mixins 
  */
-class MixinPreProcessorAccessor extends MixinPreProcessorInterface {
+public class MixinPreProcessorAccessor extends MixinPreProcessorInterface {
 
     public MixinPreProcessorAccessor(MixinInfo mixin, MixinClassNode classNode) {
         super(mixin, classNode);

@@ -37,7 +37,7 @@ import org.spongepowered.asm.util.IConsumer;
 /**
  * Default extensions for mixin processor
  */
-final class DefaultExtensions {
+public final class DefaultExtensions {
 
     private DefaultExtensions() {
     }

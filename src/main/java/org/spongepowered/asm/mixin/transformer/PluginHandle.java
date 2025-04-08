@@ -41,7 +41,7 @@ import com.google.common.base.Strings;
 /**
  * Convenience wrapper for mixin config plugins
  */
-class PluginHandle {
+public class PluginHandle {
     
     /**
      * Compatibility mode for companion plugins

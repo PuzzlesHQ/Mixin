@@ -53,7 +53,7 @@ import org.spongepowered.asm.util.Bytecode.Visibility;
  * primary responsibility is to transform the decorated accessor methods into
  * proxies for the target members.
  */
-class MixinCoprocessorAccessor extends MixinCoprocessor {
+public class MixinCoprocessorAccessor extends MixinCoprocessor {
 
     /**
      * Transformer session ID

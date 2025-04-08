@@ -48,7 +48,7 @@ import java.lang.reflect.Modifier;
  * Bytecode preprocessor for interface mixins, simply performs some additional
  * verification for things which are unsupported in interfaces
  */
-class MixinPreProcessorInterface extends MixinPreProcessorStandard {
+public class MixinPreProcessorInterface extends MixinPreProcessorStandard {
     
     /**
      * Ctor

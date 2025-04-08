@@ -51,7 +51,7 @@ import com.google.common.collect.HashBiMap;
  * Class generator which creates unique copies of inner classes within mixins
  * which are specialised to the target class. 
  */
-final class InnerClassGenerator implements IClassGenerator {
+public final class InnerClassGenerator implements IClassGenerator {
     
     /**
      * Information about an inner class instance. Implements {@link Remapper} so

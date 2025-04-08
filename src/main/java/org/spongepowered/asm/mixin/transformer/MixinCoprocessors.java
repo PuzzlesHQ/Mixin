@@ -34,7 +34,7 @@ import org.spongepowered.asm.util.perf.Profiler.Section;
 /**
  * Convenience list of coprocessors
  */
-class MixinCoprocessors extends ArrayList<MixinCoprocessor> {
+public class MixinCoprocessors extends ArrayList<MixinCoprocessor> {
 
     private static final long serialVersionUID = 1L;
     

@@ -70,7 +70,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Mixin configuration bundle
  */
-final class MixinConfig implements Comparable<MixinConfig>, IMixinConfig {
+public final class MixinConfig implements Comparable<MixinConfig>, IMixinConfig {
     
     /**
      * Wrapper for injection options

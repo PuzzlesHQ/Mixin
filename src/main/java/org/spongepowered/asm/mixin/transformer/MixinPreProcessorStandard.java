@@ -88,7 +88,7 @@ import com.google.common.base.Strings;
  * target-context-sensitive pass on the other hand can only operate on private
  * class members for obvious reasons.</p>  
  */
-class MixinPreProcessorStandard {
+public class MixinPreProcessorStandard {
     
     /**
      * Types of annotated special method handled by the preprocessor

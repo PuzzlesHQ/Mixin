@@ -40,7 +40,7 @@ import org.spongepowered.asm.util.Constants;
  * Applicator for interface mixins, mainly just disables things which aren't
  * supported for interface mixins
  */
-class MixinApplicatorInterface extends MixinApplicatorStandard {
+public class MixinApplicatorInterface extends MixinApplicatorStandard {
 
     /**
      * ctor

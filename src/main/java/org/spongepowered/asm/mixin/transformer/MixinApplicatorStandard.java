@@ -77,7 +77,7 @@ import com.google.common.collect.ImmutableSet;
 /**
  * Applies mixins to a target class
  */
-class MixinApplicatorStandard {
+public class MixinApplicatorStandard {
     
     /**
      * Annotations which can have constraints

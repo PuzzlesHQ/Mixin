@@ -40,7 +40,7 @@ import org.spongepowered.asm.service.ISyntheticClassRegistry;
  * to generate synthetic classes, and the entry point to the processing
  * pipeline.
  */
-class SyntheticClassRegistry implements ISyntheticClassRegistry {
+public class SyntheticClassRegistry implements ISyntheticClassRegistry {
     
     /**
      * Map of class name to {@link ISyntheticClassInfo} structs

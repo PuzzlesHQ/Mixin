@@ -43,7 +43,7 @@ import org.spongepowered.asm.mixin.transformer.MixinConfig.IListener;
  * called <tt>MixinPostProcessor</tt>, but the mixture of responsibilities of
  * that class made its role unclear and slightly schizophrenic.</p>
  */
-abstract class MixinCoprocessor implements IListener {
+public abstract class MixinCoprocessor implements IListener {
     
     /**
      * The result of a specific coprocessor's action on a supplied class,

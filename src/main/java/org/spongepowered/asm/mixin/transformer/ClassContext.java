@@ -39,7 +39,7 @@ import org.spongepowered.asm.mixin.transformer.ClassInfo.Method;
 /**
  * Base for class context objects
  */
-abstract class ClassContext {
+public abstract class ClassContext {
     
     /**
      * Methods in the this class which have been upgraded from

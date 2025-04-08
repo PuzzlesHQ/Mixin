@@ -42,7 +42,7 @@ import org.objectweb.asm.tree.MethodNode;
  * single target, and Java 11 or higher is in use, but at the moment it's more
  * straightforward to just make everything public.</p>
  */
-class MixinCoprocessorSyntheticInner extends MixinCoprocessor {
+public class MixinCoprocessorSyntheticInner extends MixinCoprocessor {
 
     /**
      * Synthetic inner classes in mixins

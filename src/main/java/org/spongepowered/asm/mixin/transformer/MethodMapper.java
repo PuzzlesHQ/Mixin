@@ -47,7 +47,7 @@ import org.spongepowered.asm.util.asm.MethodNodeEx;
 /**
  * Maintains method remaps for a target class
  */
-class MethodMapper {
+public class MethodMapper {
 
     /**
      * Logger

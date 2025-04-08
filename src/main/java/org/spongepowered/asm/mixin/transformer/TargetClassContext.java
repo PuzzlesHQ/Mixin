@@ -59,7 +59,7 @@ import org.spongepowered.asm.util.perf.Profiler.Section;
 /**
  * Struct for containing target class information during mixin application
  */
-final class TargetClassContext extends ClassContext implements ITargetClassContext {
+public final class TargetClassContext extends ClassContext implements ITargetClassContext {
 
     /**
      * Logger

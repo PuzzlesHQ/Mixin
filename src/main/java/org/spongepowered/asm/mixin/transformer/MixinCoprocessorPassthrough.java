@@ -33,7 +33,7 @@ import org.objectweb.asm.tree.ClassNode;
  * Passthrough coprocessor which simply keeps track of classes which are
  * loadable.
  */
-class MixinCoprocessorPassthrough extends MixinCoprocessor {
+public class MixinCoprocessorPassthrough extends MixinCoprocessor {
     
     /**
      * Loadable classes within mixin packages
